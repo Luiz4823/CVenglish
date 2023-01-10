@@ -121,13 +121,13 @@ h2{
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
-.timeline-title-container{
+.title-container{
     background: linear-gradient(180deg,#111 20%,rgba(20,44,105,0) 60%),#1a1a1a!important;
 }
 .timeline-title-p{
     font-size: 1.5em;
 }
-#timeline-title{
+#section-title{
     background-color: #111111;
     color: white;
 }
@@ -218,6 +218,92 @@ h2{
     background-color: #22221F;
     margin: 0 auto;
 }
+
+
+/* Carousel */
+.card-container{
+    padding: 0 200px;
+}
+.pilot-icon{
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(045deg,#1857de,#8aa9ed);
+    border-radius: 40%;
+}
+.skills-title-pilot{
+    background: linear-gradient(27deg,#1857de,#aec4f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.dot-container{
+    padding: 50px;
+    
+}
+.dot-icon{
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.dot-icon-pilot{
+    background-color: #aec4f2;
+}
+.dot-icon-cs{
+    background-color: #bce0cf;
+}
+.dot-icon-developer{
+    background-color: #fde9c3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-text{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.cs-icon{
+    padding: 10px;
+    height: 140px;
+    width: 140px;
+    background: linear-gradient(27deg,#39a370,#bce0cf);
+    border-radius: 40%;
+}
+.skills-title-cs{
+    background: linear-gradient(27deg,#68d9a2,#bce0cf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.developer-icon{
+    padding: 20px;
+    height: 130px;
+    width: 130px;
+    background: linear-gradient(27deg,#dbd94b,#fde9c3);
+    border-radius: 40%;
+}
+.skills-title-developer{
+    background: linear-gradient(27deg,#dbd94b,#fde9c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 
 
 
