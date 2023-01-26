@@ -221,24 +221,79 @@ h2{
 
 
 /* Carousel */
+.skills-section{
+    background: linear-gradient(180deg,#111 30%,rgba(20,44,105,0) 90%),#2d2d2d!important;
+}
+.skill-container{
+    padding: 160px 120px;
+}
 .card-container{
-    padding: 0 200px;
+    padding: 20px;
+    background-color: red;
+    width: 500px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .pilot-icon{
-    height: 150px;
-    width: 150px;
-    background: linear-gradient(045deg,#1857de,#8aa9ed);
-    border-radius: 40%;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow:
+    
+    
+    
+
+    
+    
+    /* -10px 0 30px #a162e8,        
+    10px 0 30px #a0e9ff;         */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* background: linear-gradient(045deg,#1857de,#8aa9ed); */
+   
+    /* -webkit-box-shadow:0px 0px 21px 4px rgba(107,107,107,1);
+-moz-box-shadow: 0px 0px 21px 4px rgba(107,107,107,1);
+box-shadow: 0px 0px 21px 4px rgba(107,107,107,1);
+    border-radius: 50%;
+    margin-top: 30px;
+    position: relative; */
 }
 .skills-title-pilot{
-    background: linear-gradient(27deg,#1857de,#aec4f2);
+    background: linear-gradient(27deg,#ffffff,#ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 30px;
     margin-bottom: 20px;
+    font-size: 2.5em;
 }
 .dot-container{
-    padding: 50px;
+    padding: 30px;
+    
     
 }
 .dot-icon{
@@ -248,10 +303,29 @@ h2{
     border-radius: 50%;
 }
 .dot-icon-pilot{
-    background-color: #aec4f2;
+    background: rgba(255, 255, 255, 0.19);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+.fade_rule {
+    height: 1px;
+    background-color: #E6E6E6;
+    margin: 0 auto;
+    width: 80%;
+    background-image: linear-gradient(left , #E6E6E6 2%, white 50%, #E6E6E6 98%);
+    background-image: -o-linear-gradient(left , #E6E6E6 2%, white 50%, #E6E6E6 98%);
+    background-image: -moz-linear-gradient(left , #E6E6E6 2%, white 50%, #E6E6E6 98%);
+    background-image: -webkit-linear-gradient(left , #E6E6E6 2%, white 50%, #E6E6E6 98%);
+    background-image: -ms-linear-gradient(left , #E6E6E6 2%, white 50%, #E6E6E6 98%);
+    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, gray), color-stop(0.5, white), color-stop(0.98, gray) );
+}
+
 .dot-icon-cs{
     background-color: #bce0cf;
+
 }
 .dot-icon-developer{
     background-color: #fde9c3;
